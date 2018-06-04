@@ -9,10 +9,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "ko"
-title                    : 
+title                    : "Heisenbug"
 # title                    : "Dev.Hundred"
 title_separator          : "-"
-name                     : 
+name                     : "장진우"
 # name                     : "Junho Baik"
 description              : 
 # description              : "A personal web for Junho Baik"
