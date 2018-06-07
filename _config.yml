@@ -89,14 +89,13 @@ analytics:
 
 # Site Author
 author:
-  name             : 
-  # name             : "Junho Baik"
+  name             : "장진우"
   avatar           : 
   # avatar           : "/assets/images/profile.png"
   bio              : 
   # bio              : "Junior Front-End Web Developer"
   location         : "Korea"
-  email            : 
+  email            : "jwjang@woowahan.com"
   # email            : "junhobaik@gmail.com"
   uri              :
   home             : "#" # null (default), "absolute or relative url to link to author home"
@@ -106,7 +105,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : 
+  github           : "comtizen"
   # github           : "junhobaik"
   gitlab           :
   google_plus      :
