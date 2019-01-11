@@ -12,11 +12,10 @@ locale                   : "ko"
 title                    : "Heisenbug"
 title_separator          : "-"
 name                     : "Jinwoo.Jang"
-description              : "오직 테스터를 위한.."
-# description              : "A personal web for Junho Baik"
-url                      : "https://comtizen.github.io"
+description              : "..."
+url                      : "https://phoby.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "comtizen/comtizen.github.io"
+repository               : "phoby/phoby.github.io"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -105,7 +104,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "comtizen"
+  github           : "phoby"
   # github           : "junhobaik"
   gitlab           :
   google_plus      :
