@@ -134,7 +134,7 @@ This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
 플러그인들이 설치가 완료되면, Admin User를 생성해 줍니다.
 
 <p align="center">
-  <img src="/images/2019-02-02/create-first-admin-user.pngg">
+  <img src="/images/2019-02-02/create-first-admin-user.png">
 </p>
 
 ## 설정 완료
@@ -149,20 +149,16 @@ This may also be found at: /var/jenkins_home/secrets/initialAdminPassword
 jenkins 설정 과정이 끝나면 새로운 Job을 만들어 보겠습니다. 
 
 <p align="center">
-  <img src="/images/2019-02-02/jenkins-is-ready.png">
+  <img src="/images/2019-02-02/jenkins-new-item.png">
 </p>
-
-[2ED15026-15A8-47D2-8A0F-8C1646F6D0EF.png](quiver-image-url/44821BB1C25553CF42DB70E6116C4401.jpg =700x)
 
 ## 새로운 Item 등록
 `새 작업` 항목을 선택하고, `item name`을 입력합니다.
 그리고, `Freestyle project`를 선택해서 새로운 job을 생성해 보겠습니다.
 
 <p align="center">
-  <img src="/images/2019-02-02/jenkins-new-item.png">
+  <img src="/images/2019-02-02/enter-an-item.png">
 </p>
-
-![CF48866A-F3D9-49E0-B744-8CAD6C4E34A3.png](quiver-image-url/3B7D8820F6E67EBD47805829CDAA8925.jpg =794x521)
 
 ## General
 General 항목을 아래와 같이 설정합니다.
