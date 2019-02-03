@@ -10,7 +10,7 @@ tags:
   - Test
 ---
 # Jenkins
-개발이나 테스트 하시는 분들 중 `젠킨스(이하 Jenkins)`가 무엇인지 모르는 분은 거의 없을거라고 생각합니다. 하지만, jenkins가 무엇인지 간략하게 설명하면 소프트웨어 개발 과정에서 소프트웨어를 지속적으로 통합하는 과정을 자동화할 수 있는 도구입니다.
+`젠킨스(이하 Jenkins)`가 무엇인지 모르는 분은 거의 없을거라고 생각합니다. jenkins는 개발 작업 자동화 뿐 아니라 소스 코드 저장소 대한 지속적인 통합과 지속적인 배포 환경을 구축하기 위한 간단한 방법을 제공하는 도구입니다. 
 
 [Jenkins 공식 웹사이트](https://jenkins.io)
 
@@ -162,7 +162,6 @@ jenkins 설정 과정이 끝나면 새로운 Job을 만들어 보겠습니다.
 
 ## General
 General 항목을 아래와 같이 설정합니다.
-여기서 `이 빌드는 매개변수가 있습니다.`를 체크하고 매개변수 명에 `payload`를 입력합니다. 이 값은 Github에서 이벤트가 발생하면 Webhook으로 Jenkins 에게 발생한 이벤트 유형에 해당하는 `payload` 값을 보내줍니다. Jenkins에는 Github Webhook 으로 보낸 `payload` 값을 빌드 매개변수로 사용합니다.
 
 <p align="center">
   <img src="/images/2019-02-02/general.png">
@@ -171,7 +170,6 @@ General 항목을 아래와 같이 설정합니다.
 ## 소스 코드 관리
 
 Jenkins를 통해서 자동으로 실행할 테스트 프로젝트의 소스 코드 저장소 정보를 입력합니다.
-저는 github을 프로젝트 저장소로 사용하고 있습니다. 
 > 주의: 위 이미지처럼 저장소 경로를 입력할 때 프로토콜을 `https`로 해야합니다.
 
 <p align="center">
@@ -218,7 +216,7 @@ Webhook 설정이 완료되면 `Recent Deliveries`에 `ping` 테스트 결과를
   <img src="/images/2019-02-02/github-webhook.png">
 </p>
 
-설정된 대로 Github Webhook이 잘 동작하는지 확인하기 위해서 소스 코드 저장소에 변경된 코드는 `push` 해보겠습니다.
+설정된 대로 Github Webhook이 잘 동작하는지 확인하기 위해서 테스트로 소스 코드 저장소에 변경된 코드를 `push` 해보겠습니다.
 
 Jenkins에서는 Github push 이벤트로 발생된 Webhook 요청을 받아 테스트를 수행하게 됩니다.
 
@@ -229,7 +227,7 @@ Jenkins에서는 Github push 이벤트로 발생된 Webhook 요청을 받아 테
 # 정리
 
 여기까지 Jenkins를 docker container로 설치하고 빌드가 가능하도록 설정했습니다.
-그리고, Github Webhook 설정을 통해 소스 코드 저장소에 변경된 코드가 push 되면 자동으로 빌드가 유발되고 테스트가 실행될 수 있도록 설정하는 과정을 정리했습니다.
+그리고, Github Webhook을 통해 소스 코드 저장소에 변경된 코드가 push 되면 자동으로 빌드가 유발되고 테스트가 실행될 수 있도록 설정하는 과정을 정리했습니다.
 
 
 
