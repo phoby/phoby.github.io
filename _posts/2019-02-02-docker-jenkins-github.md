@@ -20,7 +20,7 @@ tags:
 
 가장 최신 버전의 `jenkins` 이미지를 다운로드 합니다.
 ``` shell
-$ docker pull jenkins
+$ docker pull jenkins/jenkins:lts
 Using default tag: latest
 latest: Pulling from library/jenkins
 55cbf04beb70: Downloading [===============================================>   ]  43.12MB/45.31MB
@@ -54,7 +54,7 @@ Status: Downloaded newer image for jenkins:latest
 $ docker images
 
 REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-jenkins             latest              cd14cecfdb3a        6 months ago        696MB
+jenkins/jenkins     latest              cd14cecfdb3a        6 months ago        696MB
 ```
 
 `jenkins`를 새로운 `docker container`에서 구동합니다.
@@ -65,7 +65,7 @@ jenkins             latest              cd14cecfdb3a        6 months ago        
 - `--name`
 
 ``` shell
-$ docker run -d -p 8080:8080 -v ~/workspace/jenkins:/var/jenkins_home --name=jenkins jenkins
+$ docker run -d -p 8080:8080 -v ~/workspace/jenkins:/var/jenkins_home --name=jenkins cd14cecfdb3a
 b17c29bf5ed4f5070229a9b54ff369dc5dfe6a62cdb1a7a0a6f4196692620560
 ```
 컨테이너 ID가 `b17c29bf5ed4`이고 이름이 `jenkins`로 할당된 컨테이너가 실행되었습니다.
@@ -73,7 +73,7 @@ b17c29bf5ed4f5070229a9b54ff369dc5dfe6a62cdb1a7a0a6f4196692620560
 ``` shell
 $ docker container ls -a
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                               NAMES
-b17c29bf5ed4        jenkins             "/bin/tini -- /usr/l…"   9 minutes ago       Up 9 minutes        0.0.0.0:8080->8080/tcp, 50000/tcp   jenkins
+b17c29bf5ed4        jenkins/jenkins     "/bin/tini -- /usr/l…"   9 minutes ago       Up 9 minutes        0.0.0.0:8080->8080/tcp, 50000/tcp   jenkins
 ```
 
 그럼 웹 브라우저에 `http://localhost:8080`을 입력해서 본격적으로 `jenkins` 설치를 진행해 보겠습니다.
