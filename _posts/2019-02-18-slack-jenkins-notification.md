@@ -27,7 +27,7 @@ tags:
 
 새로운 `workspace`를 생성합니다.
 <p align="center">
-  <img src="/images/2019-02-18/start-with-a-workspace.png">
+  <img src="/images/2019-02-18/start-with-a-workspace.png" style="width: 500px">
 </p>
 
 새로운 `workspace` 생성을 위해 이메일 주소를 입력하고 'Confirm' 버튼을 클릭합니다.
