@@ -147,3 +147,4 @@ Slack 알림 받을 상황을 선택합니다. 저는 빌드가 시작할 때와
 https://slack.com
 https://medium.com/appgambit/integrating-jenkins-with-slack-notifications-4f14d1ce9c7a
 https://dogbirdfoot.tistory.com/16
+
