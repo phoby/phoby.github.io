@@ -32,54 +32,54 @@ tags:
 
 새로운 `workspace` 생성을 위해 이메일 주소를 입력하고 'Confirm' 버튼을 클릭합니다.
 <p align="center">
-  <img src="/images/2019-02-18/create-a-new-workspace.png">
+  <img src="/images/2019-02-18/create-a-new-workspace.png" style="width: 500px">
 </p>
 
 Slack에서 이메일 주소로 여섯자리 인증 코드를 보내줍니다. 인증 코드 6자리를 입력합니다.
 <p align="center">
-  <img src="/images/2019-02-18/check-your-email.png">
+  <img src="/images/2019-02-18/check-your-email.png" style="width: 500px">
 </p>
 
 회사 또는 팀 이름을 입력합니다.
 <p align="center">
-  <img src="/images/2019-02-18/your-company-or-team.png">
+  <img src="/images/2019-02-18/your-company-or-team.png" style="width: 500px">
 </p>
 
 채널 이름을 입력합니다.
 <p align="center">
-  <img src="/images/2019-02-18/your-team-is-working-on.png">
+  <img src="/images/2019-02-18/your-team-is-working-on.png" style="width: 500px">
 </p>
 
 채널에 초대할 팀 구성원을 추가합니다. 나중에 추가할수도 있으므로 지금은 살포시 건너 뛰도록 하겠습니다. 
 <p align="center">
-  <img src="/images/2019-02-18/add-teammates.png">
+  <img src="/images/2019-02-18/add-teammates.png" style="width: 500px">
 </p>
 
 드디어 `#test-notification`이라는 채널이 생성됐습니다.
 <p align="center">
-  <img src="/images/2019-02-18/see-your-channel-in-slack.png">
+  <img src="/images/2019-02-18/see-your-channel-in-slack.png" style="width: 500px">
 </p>
 
 ## Jenkins 앱 추가
 
 이제 Slack 에서 Jenkins 와 연동하기 위한 설정을 진행해 보겠습니다.
 <p align="center">
-  <img src="/images/2019-02-18/add-apps.png">
+  <img src="/images/2019-02-18/add-apps.png" style="width: 300px">
 </p>
 
 Jenkins 를 검색하면 `Jenkins CI`이 조회됩니다. Install 버튼을 클릭합니다.
 <p align="center">
-  <img src="/images/2019-02-18/browse-apps.png">
+  <img src="/images/2019-02-18/browse-apps.png" style="width: 500px">
 </p>
 
 Jenkins CI 앱 정보 페이지가 나오면, 왼쪽의 `Install` 버튼을 클릭합니다.
 <p align="center">
-  <img src="/images/2019-02-18/jenkins-ci.png">
+  <img src="/images/2019-02-18/jenkins-ci.png" style="width: 500px">
 </p>
 
 Jenkins 알림을 받을 채널을 선택하고, `Add Jenkins CI integration` 버튼을 클릭해서 설치를 완료합니다.
 <p align="center">
-  <img src="/images/2019-02-18/add-jenkins-ci-integration.png">
+  <img src="/images/2019-02-18/add-jenkins-ci-integration.png" style="width: 500px">
 </p>
 
 설치 과정이 마무리되면 Slack과 Jenkins의 연동 가이드가 나오며, 가이드 절차에 따라 설정해주면 됩니다. 특히, `Step 3`의 `Base URL`과 `Integration Token`은 Jenkins 설정에 필요한 값으로 따로 기록해 두는 것이 좋습니다.
@@ -90,7 +90,7 @@ Jenkins 알림을 받을 채널을 선택하고, `Add Jenkins CI integration` �
 
 Jenkins 대시보드에서 `Manage Jenkins` 메뉴를 클릭합니다.
 <p align="center">
-  <img src="/images/2019-02-18/manage-jenkins.png">
+  <img src="/images/2019-02-18/manage-jenkins.png" style="width: 300px">
 </p>
 
 `Manage Plugin` 메뉴를 선택하고 `Available` 탭에서 `Slack Notification` 플러그인을 검색하고 설치합니다.
@@ -114,7 +114,7 @@ Jenkins 대시보드에서 `Manage Jenkins` 메뉴를 클릭합니다.
 
 테스트 알림이 Slack 채널로 전송됩니다.
 <p align="center">
-  <img src="/images/2019-02-18/test-notifi.png">
+  <img src="/images/2019-02-18/test-notifi.png" style="width: 500px">
 </p>
 
 ## 빌드 후 조치 설정
@@ -123,19 +123,19 @@ Slack과 Jenkins 연동을 위한 설정은 이제 거의 마무리 됐습니다
 
 알림을 받을 `프로젝트 > Configure > Post-build Actions` 항목으로 이동한 후에 `Slack Notifications`를 선택합니다.
 <p align="center">
-  <img src="/images/2019-02-18/add-post-build-action.png">
+  <img src="/images/2019-02-18/add-post-build-action.png" style="width: 300px">
 </p>
 
 Slack 알림 받을 상황을 선택합니다. 저는 빌드가 시작할 때와 빌드 성공했을 때 그리고 빌드가 실패했을 때 알림을 받도록 설정했습니다.
 <p align="center">
-  <img src="/images/2019-02-18/slack-notifications.png">
+  <img src="/images/2019-02-18/slack-notifications.png" style="width: 500px">
 </p>
 
 저장하면 이제 모든 과정이 끝났으니 빌드를 한번 실행해 보겠습니다.
 
 13번째 빌드가 시작했을 때와 빌드(테스트)가 성공했을 때 슬랙 채널로 알림 메시지가 잘 들어오는 것을 확인할 수 있습니다.
 <p align="center">
-  <img src="/images/2019-02-18/slack-notification-by-jenkins.png">
+  <img src="/images/2019-02-18/slack-notification-by-jenkins.png" style="width: 500px">
 </p>
 
 # 마무리
@@ -145,6 +145,8 @@ Slack 알림 받을 상황을 선택합니다. 저는 빌드가 시작할 때와
 # 참고
 
 https://slack.com
+
 https://medium.com/appgambit/integrating-jenkins-with-slack-notifications-4f14d1ce9c7a
+
 https://dogbirdfoot.tistory.com/16
 
