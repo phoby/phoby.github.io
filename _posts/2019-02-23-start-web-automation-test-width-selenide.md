@@ -59,7 +59,7 @@ IntelliJ를 실행합니다.
 새로운 프로젝트가 생성되었습니다.
 
 <p align="center">
-  <img src="/images/2019-02-23/selenide-1-05.png" style="width: 500px">
+  <img src="/images/2019-02-23/selenide-1-05.png" style="width: 800px">
 </p>
 
 ## Module 추가
@@ -88,13 +88,13 @@ IntelliJ를 실행합니다.
 프로젝트 윈도우에 `desktop-web` 모듈과 `mobile-web` 모듈이 생성되고 빌드 도구인 `gradle`과 관련된 파일들이 생성됩니다.
 
 <p align="center">
-  <img src="/images/2019-02-23/selenide-1-09.png" style="width: 500px">
+  <img src="/images/2019-02-23/selenide-1-09.png" style="width: 800px">
 </p>
 
 지금까지 진행한 과정을 모두 마쳤다면, 아래 이미지와 같은 프로젝트 구조가 생성됩니다.
 
 <p align="center">
-  <img src="/images/2019-02-23/selenide-1-10.png" style="width: 500px">
+  <img src="/images/2019-02-23/selenide-1-10.png" style="width: 300px">
 </p>
 
 이렇게 생성된 모듈은 `Gradle`에서 각각의 프로젝트로 인식됩니다.
