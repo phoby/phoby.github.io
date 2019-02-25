@@ -91,11 +91,10 @@ author:
   name             : "장진우"
   avatar           : 
   # avatar           : "/assets/images/profile.png"
-  bio              : "기억하고 싶은 것들을 기록으로.."
+  bio              : "Software Test Engineer - 기억하고 싶은 것들을 기록으로.."
   # bio              : "Junior Front-End Web Developer"
   location         : "Korea"
   email            : "ilovezulie@gmail.com"
-  # email            : "junhobaik@gmail.com"
   uri              :
   home             : "#" # null (default), "absolute or relative url to link to author home"
   bitbucket        :
@@ -105,7 +104,6 @@ author:
   facebook         :
   foursquare       :
   github           : "phoby"
-  # github           : "junhobaik"
   gitlab           :
   google_plus      :
   keybase          :
