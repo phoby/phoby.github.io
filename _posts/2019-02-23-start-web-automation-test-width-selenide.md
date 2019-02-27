@@ -1,6 +1,6 @@
 ---
-title: Selenide로 테스트 자동화 시작하기 - [1]
-date: 2019-02-23 01:53 +0900
+title: Selenide로 테스트 자동화 시작하기 - 1
+date: 2019-02-28 08:53 +0900
 tags:
   - Automation Test
   - Selenide
