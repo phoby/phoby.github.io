@@ -4,6 +4,8 @@ date: 2019-02-23 01:53 +0900
 tags:
   - Automation Test
   - Selenide
+  - Selenium
+  - WebDriver
   - IntelliJ
   - Gradle
   - Java
