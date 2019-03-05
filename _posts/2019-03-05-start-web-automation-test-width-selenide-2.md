@@ -15,7 +15,7 @@ tags:
 
 > 예제 코드는 [github](https://github.com/phoby/web-testing)에서 확인할 수 있습니다. 
 
-ntelliJ에서 `mobile-web` 모듈의 `build.gradle` 파일을 열면 아래 코드와 같이 생성되어 있을 겁니다. (그래야 해요..)
+IntelliJ에서 `mobile-web` 모듈의 `build.gradle` 파일을 열면 아래 코드와 같이 생성되어 있을 겁니다. (그래야 해요..)
 
 ``` groovy
 plugins {
@@ -128,7 +128,7 @@ public class GooglePageTest {
 }
 ```
 
-코드에 대한 설명을 하기전에 터미널 창을 열고 `./gradlew` 명령으로 테스트를 실행해 보도록 하겠습니다.
+터미널 창을 열고 `./gradlew clean test` 명령으로 테스트 코드를 실행해 보도록 하겠습니다.
 
 ``` shell
 $ ./gradlew clean test
