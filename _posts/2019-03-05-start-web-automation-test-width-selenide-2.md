@@ -17,7 +17,7 @@ tags:
 
 IntelliJ에서 `mobile-web` 모듈의 `build.gradle` 파일을 열면 아래 코드와 같이 생성되어 있을 겁니다. (그래야 해요..)
 
-``` groovy {.line-numbers}
+``` groovy 
 plugins {
     id 'java'
 }
