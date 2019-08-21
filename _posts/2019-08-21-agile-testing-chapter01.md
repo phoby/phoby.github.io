@@ -2,7 +2,7 @@
 title: [Book] 애자일 테스팅 - Chapter 01
 tags:
   - Agile
-   -Testing
+  - Testing
   - Books
 ---
 
@@ -41,5 +41,3 @@ tags:
 <p align="center">
   <img src="/images/2019-08-21/chapter-01-02.png" >
 </p>
-
-
