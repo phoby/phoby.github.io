@@ -1,5 +1,6 @@
 ---
-title: [Book] 애자일 테스팅 - Chapter 01
+title: 애자일 테스팅 - Chapter 1
+date: 2019-08-21 09:00 +0900
 tags:
   - Agile
   - Testing
