@@ -36,7 +36,8 @@ $ appium-doctor --android
 ```
 
 아마 처음 Appium 설치하신 분들은 여러가지 WARN 메시지보고 깜짝 놀라셨을 수도 있지만, 가장 중요한 것은 빨간색 X 표시되어있는 몇가지 항목만 주의해서 보시면 됩니다.
-![](/images/2021-01-13/appium-doctor-1.png)
+
+![](/images/2021-01-13/appium-doctor-1.jpg)
 
 # android-sdk 설치
 ``` shell
