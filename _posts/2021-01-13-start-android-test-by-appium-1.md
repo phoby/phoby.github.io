@@ -16,8 +16,6 @@ Appium은 native, hybrid and mobile web 등 모든 유형의 모바일 어플리
 
 # Appium 설치
 
-가장먼저 `node`를 설치합니다.
-
 ``` shell
 # node 설치
 $ brew install node
@@ -47,3 +45,42 @@ $ appium-doctor --android
 ``` shell
 $ brew install --cask android-sdk
 ```
+
+android-sdk 설치가 완료되면 `android-sdk`가 설치된 경로를 접근하기 쉬운 경로로 링크를 걸어주도록 합니다.
+
+``` shell
+# 홈 디렉토리에 android-sdk가 설치된 경로로 심볼릭 링크 생성
+$ ln -s /usr/local/share/android-sdk ~/android-sdk
+```
+
+다음으로 홈 디렉토리의 `~/.zshrc` 파일 맨 아래에 환경 변수를 추가한 후 저장합니다.
+
+``` shell
+# z shell runtime commands
+$ vi ~/.zshrc
+
+# 환경변수 추가
+export ANDROID_HOME="/usr/local/share/android-sdk"
+```
+
+환경변수까지 추가했으면 아래 명령을 실행해서 추가한 환경 변수를 적용합니다.
+
+``` shell
+$ source ~/.zshrc
+
+# 환경변수 적용 확인
+$ echo $ANDROID_HOME
+```
+
+이제 환경변수까지 적용했으니 다시 한번 `appium-doctor` 명령을 실행해봅니다.
+
+``` shell
+$ appium-doctor --android
+```
+
+`ANDROID_HOME`이 정상적으로 설정된 것을 확인할 수 있습니다.
+
+# 정리
+지금까지 `Appium`과 `android-sdk`를 설치하고 환경변수 설정까지 진행했습니다.
+다음 시간에는 `AVD (Android Virtual Device)` 관련 패키지를 설치하고 Appium 실행 가능한 상태로 만들어 보도록 하겠습니다.
+
