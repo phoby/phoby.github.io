@@ -41,7 +41,7 @@ $ appium-doctor --android
 
 환경변수에 `ANDROID_HOME`과 `JAVA_HOME` 등이 설정되어 있지 않아서 발생하는 문제이므로 다음 단계에서 `android-sdk`를 설치하고 환경변수 설정을 진행해 보도록 하겠습니다.
 
-> JAVA 설치는 ![SDK! 으로 Java 버전 관리하기](/_post/2019-01-13-sdkman.md) 글을 참고해주세요-
+> JAVA 설치는 ![SDK! 으로 Java 버전 관리하기](https://phoby.github.io/sdkman/) 글을 참고해주세요-
 
 # android-sdk 설치
 ``` shell
