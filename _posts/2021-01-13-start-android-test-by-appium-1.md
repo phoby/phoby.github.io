@@ -14,7 +14,9 @@ tags:
 
 Appium은 native, hybrid and mobile web 등 모든 유형의 모바일 어플리케이션을 테스트할 수 있는 오픈소스 테스트 자동화 프레임워크이며 좀 더 자세한 내용은 검색해보시면 됩니다.
 
-# Appium 설치
+# 설치
+
+## Appium 설치
 
 ``` shell
 # node 설치
@@ -41,7 +43,7 @@ $ appium-doctor --android
 
 > JAVA 설치는 [SDK! 으로 Java 버전 관리하기](https://phoby.github.io/sdkman/) 글을 참고해주세요-
 
-# android-sdk 설치
+## android-sdk 설치
 ``` shell
 $ brew install --cask android-sdk
 ```
