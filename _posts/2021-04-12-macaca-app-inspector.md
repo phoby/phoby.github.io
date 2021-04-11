@@ -17,12 +17,8 @@ tags:
 
 이 글에서는 이와 같은 도구들 중 사용하기 쉬운 `macaca app-inspector`의 사용 법에 대해서 알아 보도록 하겠습니다.
 
-<br>
-
 # 설치
 > Macaca App-Inspector 설치를 위해서는 `node.js` 가 설치 되어있어야 합니다.
-
-<br>
 
 ## macaca-cli 설치
 ``` shell
@@ -41,8 +37,6 @@ $ macaca doctor
 아래 그림처럼 Android 플랫폼은 환경이 준비된 것을 확인할 수 있습니다.
 ![](/images/2021-04-12/macaca-doctor.png)
 
-<br>
-
 ## App Inspector 설치
 
 아래 명령으로 App Inspector를 설치할 수 있습니다.
@@ -50,8 +44,6 @@ $ macaca doctor
 ``` shell
 $ npm install -g app-inspector 
 ```
-
-<br>
 
 # CLI 환경에서 시작
 
@@ -74,16 +66,12 @@ $ app-inspector -u ${YOUR_DEVICE_ID}
 
 ![](/images/2021-04-12/app-inspector)
 
-<br>
-
 # 정리
 
 테스트에 필요한 엘리먼트 트리 정보나 속성 정보를 식별할 수 있도록 도와주는 `macaca app-inspector` 에 대해 알아보았습니다. 설치도 쉽고, 사용법도 간단해서 자주 사용하고 있습니다.
 
 혹시, 다른 도구 사용 중 불편함을 느끼셨다면 한번 사용해 보시길 추천드립니다.
 그리고, 더 좋은 도구가 있다면 추천도 부탁드립니다.
-
-<br>
 
 ## [참고] DEVICE ID 얻는 방법
 
