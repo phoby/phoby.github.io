@@ -1,4 +1,13 @@
-# Macaca App-Inspector
+---
+title: Macaca App Inspector
+date: 2021-04-12 03:00 +0900
+tags:
+  - appium
+  - inspector
+  - macaca 
+  - android
+  - ios
+---
 
 `Appium` 같은 도구를 이용해서 모바일 테스트 자동화를 수행해야할 때 반드시 필요한 유틸이 `Appium Inspector` 또는 `UI Automator Viewer` 같은 도구 입니다.
 
