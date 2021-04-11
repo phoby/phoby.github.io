@@ -108,6 +108,5 @@ $ xcrun simctl list
 위 명령을 실행하면 `XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX` 형태의 `UDID` 값을 얻을 수 있습니다.
 
 * 실제 장치 정보   
-
 iOS 실제 연결된 장치 정보는 Xcode > Window > Devices and Simulators 를 통해서 확인하거나, Finder 에서 연결된 장치를 선택하면 `XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX` 형태의 `UDID` 값을 얻을 수 있습니다.
 
