@@ -45,6 +45,8 @@ $ macaca doctor
 $ npm install -g app-inspector 
 ```
 
+<br>
+
 # CLI 환경에서 시작
 
 App Inspector 설치가 완료되면, 아래 명령으로 실행할 수 있습니다.
